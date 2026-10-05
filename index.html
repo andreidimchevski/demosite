@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Студио Луме — демонстрационен сайт за измислен салон за красота. Подстригване, боядисване, прически и маникюр.">
+<meta name="theme-color" content="#672d3b"><title>Студио Луме · Красота в твой ритъм</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23672d3b'/%3E%3Ctext x='32' y='47' text-anchor='middle' fill='%23faf7f2' font-family='Georgia' font-size='47'%3EL%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css"><script defer src="content.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Към съдържанието</a>
+<div class="demo-bar">Демонстрационен сайт за измислен салон</div>
+<header class="header">
+<a class="logo" href="#home" aria-label="Студио Луме — начало"><span class="logo-small">СТУДИО</span><span class="brand-name">Луме</span></a>
+<nav id="navigation" aria-label="Основна навигация"><a href="#services">Услуги</a><a href="#about">За студиото</a><a href="#gallery">Галерия</a><a href="#contact">Контакти</a></nav>
+<a class="header-contact" href="#contact">Контакт и записване</a>
+<button class="menu-toggle" type="button" aria-label="Отвори менюто" aria-controls="navigation" aria-expanded="false"><span></span><span></span></button>
+</header>
+<main id="main">
+<section class="hero" id="home">
+<div class="hero-copy"><p class="eyebrow">КОСА · НОКТИ · ВРЕМЕ ЗА ТЕБ</p><h1>Красота<br>в <em>твой</em> ритъм.</h1><p class="hero-description">Малко време за себе си.<br>Нова енергия за всичко останало.</p><a class="button" href="#services">Разгледай услугите</a><div class="hero-note"><span class="fine-line"></span><span>С внимание към теб.<br>И към всеки детайл.</span></div></div>
+<div class="hero-image"><img data-image="hero" alt="Светъл интериор на салон с огледала и фризьорски столове" fetchpriority="high" width="1200" height="1400"><div class="image-caption"><span>ТВОЕТО ВРЕМЕ. ТВОЯТА КРАСОТА.</span><span>Л.</span></div></div>
+<div class="hero-bottom"><span>ЕСТЕСТВЕНО КРАСИВА. ПО СВОЕМУ.</span><a href="#about">Опознай Луме</a></div>
+</section>
+<section class="services section" id="services"><div class="section-heading"><div><p class="eyebrow">01 / УСЛУГИ</p><h2>Малки промени.<br><em>Красиво усещане.</em></h2></div><p>От освежаване на любимата визия до нещо съвсем ново. Открий своя начин да се почувстваш добре.</p></div><div id="service-list" class="service-list"></div></section>
+<section class="about section" id="about"><div class="about-photo"><img data-image="about" alt="Детайл от уютно пространство за красота" loading="lazy" width="900" height="1100"><span class="photo-label">ПРОСТРАНСТВО ЗА ТЕБ</span></div><div class="about-copy"><p class="eyebrow">02 / ЗА СТУДИОТО</p><h2>Да забавиш.<br>Да си поемеш дъх.<br><em>Да бъдеш себе си.</em></h2><p>Луме е идея за място, в което грижата за красотата започва с нещо съвсем простичко — внимание.</p><p>Представяме си спокойна атмосфера, открит разговор и визия, която подчертава твоята индивидуалност. Без излишна суета. С усет към детайла.</p><div class="about-signature">Светлина в малките неща.<span>Това е Луме.</span></div></div></section>
+<section class="gallery section" id="gallery"><div class="section-heading"><div><p class="eyebrow">03 / ВДЪХНОВЕНИЕ</p><h2>Красотата е<br><em>в детайлите.</em></h2></div><p>Текстури, нюанси и малки моменти.<br>Подбрани кадри за настроението на Луме — илюстративни, а не наше портфолио.</p></div><div id="gallery-grid" class="gallery-grid"></div></section>
+<section class="contact section" id="contact"><div class="contact-intro"><p class="eyebrow">04 / КОНТАКТ</p><h2>Следващият момент<br><em>е за теб.</em></h2><p id="contact-explanation"></p><span class="demo-tag">Демонстрационен сайт за измислен салон</span></div><div class="contact-details"><div><h3>Контакти и записване</h3><p>Телефон, адрес и възможност за записване ще бъдат добавени за реален салон. Тук не се приемат заявки.</p></div><div><h3>Работно време <span>ПРИМЕРНО</span></h3><dl id="hours"></dl></div></div></section>
+</main>
+<footer><a class="logo footer-logo" href="#home"><span class="logo-small">СТУДИО</span><span class="brand-name">Луме</span></a><p>Демонстрационен сайт за измислен салон.<br>Създаден като портфолио концепция.</p><a href="#home">Към началото ↑</a></footer>
+<dialog id="lightbox" aria-labelledby="lightbox-caption"><button id="close-lightbox" type="button" aria-label="Затвори снимката">✕</button><img id="lightbox-image" alt=""><p id="lightbox-caption"></p></dialog>
+</body></html>
